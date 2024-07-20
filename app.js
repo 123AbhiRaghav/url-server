@@ -2,7 +2,7 @@ const express = require('express');
 const bodyparser = require('body-parser');
 const cors = require('cors');
 const app = express();
-const shortUrl = require("./Routes/route")
+const shortUrl = require("./routes/route")
 
 app.use(cors());
 
